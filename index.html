@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+ 
+  <title>Frontend Mentor | Fylo data storage component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+    <div class="main">
+       <div class="wrap">
+        <div class="part1">
+          <img id="logo" src="images/logo.svg" alt="logo">
+             <div class="upload">
+            <img src="images/icon-document.svg" alt="document">
+            <img src="images/icon-folder.svg" alt="folder">
+            <img src="images/icon-upload.svg" alt="upload">
+          </div>
+        </div><!--part1 end here-->
+        
+        <div id="data_left">
+          <p id="p1"> <span >185</span> GB LEFT </p>
+         </div>
+        <div class="part2">          
+          <div id="data_used">
+          <label for="range" style="margin-left: 1rem; margin-bottom: 0.5rem;">  <span> You’ve used <span style="font-weight: 700;">815 GB</span>  of your storage</span> </label>
+          <input type="range" min="0" max="1000" value="815" id="range">
+          <div id="data"><span style="padding-right:75%">0 GB</span> <span>1000 GB</span></div>
+       </div>
+        </div>        
+    </div>  
+  </div>
+</body>
+</html>
