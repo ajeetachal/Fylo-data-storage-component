@@ -5,7 +5,7 @@
         margin: 0;
     }
     body{
-        background-image: url(images/bg-mobile.png);
+        background-image: url(./bg-mobile.png);
         background-color:hsl(229, 57%, 11%);
         color: #fff;
         font-family: Raleway, sans-serif;
@@ -117,7 +117,7 @@
     }
     body{
         background-color:hsl(229, 57%, 11%);
-        background-image: url(images/bg-desktop.png);
+        background-image: url(./bg-desktop.png);
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-position: bottom;
@@ -177,7 +177,7 @@
         width: 16rem;
         margin-left: -14rem;
         order: 3;
-        background-image: url(images/message_icon.png);  
+        background-image: url(./message_icon.png);  
         background-size: contain;
         background-repeat: no-repeat;  
     }
